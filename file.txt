@@ -1,0 +1,33 @@
+Concessionaria Auto Usate
+
+ID                   - INT          - PRIMARY KEY(AUTO_INCREMENT, UNIQUE, INDEX), NOTNULL
+Targa                - VARCHAR(10)  - NOTNULL, UNIQUE, INDEX
+Marca                - VARCHAR(15)  - NOTNULL
+Modello              - VARCHAR(20)  - NOTNULL
+Cilindrata           - SMALLINT     - NOTNULL
+KiloWatt/CV          - SMALLINT     - NOTNULL
+Coppia-Motrice       - MEDIUMINT    - 
+Serbatoio            - SMALLINT     -
+Consumo-Carburante   - FLOAT(6,2)   - 
+Immatricolazione     - YEAR         - NOTNULL
+Proprietari          - TINYINT      -
+Km-Percorsi          - FLOAT        - NOTNULL
+Alimentazione        - VARCHAR(15)  - NOTNULL
+Pacchetti-Optional   - TEXT         -
+Non-Fumatori         - TINYINT      -
+Cambio               - VARCHAR(15)  - NOTNULL
+Incidentata          - TINYINT      -
+Emissioni-Co2        - SMALLINT     - NOTNULL
+Classe-Ambiantale    - VARCHAR(10)  - NOTNULL
+Colore-Carrozzeria   - VARCHAR(15)  -
+Cerchi-in-Lega       - TINYINT      -
+Posti-a-sedere       - TINYINT      -
+Misure-Gomme         - TINYINT      -
+Bagaglio             - MEDIUMINT    -
+Porte                - TINYINT      -
+Peso                 - SMALLINT     -
+Velocità-MAx         - SMALLINT     -
+Accelerazione(0-100) - FLOAT(4,2)   -
+Foto                 - VARCHAR(100) - NOTNULL, DEFAULT
+Descrizione          - VARCHAR(150) -
+Prezzo               - MEDIUMINT    - NOTNULL
